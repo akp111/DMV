@@ -1,0 +1,1 @@
+{"version":3,"sources":["Issuer.css","App.css"],"names":[],"mappings":"AAAA,KACI,gBACJ,CCFA,KACE,qBAAuB,CACvB,uDAEF","file":"main.42a8ca53.chunk.css","sourcesContent":[".btn{\n    padding-left: 2px;\n}","body{\n  background-color: white;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  \n}"]}
