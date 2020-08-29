@@ -1,6 +1,6 @@
 import React from "react"
 import "./Verifier.css"
-import { Card,Paper,Grid} from '@material-ui/core';
+import { Card,Paper,Grid,Typography} from '@material-ui/core';
 function Verifier()
 {
     return(
@@ -9,10 +9,13 @@ function Verifier()
 <Grid container justify="center" spacing={2} item xs={12} md={12}>
 <Grid item xs={8} md={8}>
           
-        <h1 id="title">Verifier Page</h1>
-        <br></br>
-        <Paper  elevation={3}><Card  variant="outlined" >
-        <h3 className="step">Request Proofs To The Connection</h3>
+<Typography variant="title" color="inherit">
+<Typography variant="h3" component="h1" align="center">Verifier Page</Typography>
+<br></br><br></br>
+</Typography>
+
+         <Paper  elevation={3} ><Card  variant="outlined" >
+        <Typography variant="h4" component="h1" align="center">Request Proofs To The Connection</Typography>
         </Card>
         </Paper>
         </Grid>
@@ -23,3 +26,5 @@ function Verifier()
 }
 
 export default Verifier
+
+// 

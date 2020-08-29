@@ -1,8 +1,10 @@
 import React from "react"
 import  "./Issuer.css"
-import { Grid,Card,CardActions,Paper,Typography,Snackbar} from '@material-ui/core';
+import { Grid,Card,Paper,Typography} from '@material-ui/core';
 function Issuer()
 {
+   
+  
     return(
         <div>
 
@@ -11,33 +13,34 @@ function Issuer()
 <Grid item xs={8} md={8}>
 
 <Typography variant="title" color="inherit">
-<h1 id ="title">Issuer Page</h1>
+<Typography variant="h3" component="h1" align="center">Issuer Page</Typography>
+<br></br><br></br>
 </Typography>
-        <Paper  elevation={3}><Card  variant="outlined" >
-        <h3>1. Issuer Registration</h3>
+        <Paper  elevation={3} ><Card  variant="outlined" >
+        <Typography variant="h4" component="h1" align="center"> Issuer Registration</Typography>
         </Card>
         </Paper>
         <br></br>
         <Paper  elevation={3}><Card  variant="outlined" elevation={3}>
-        <h3>2. Prepare Schema</h3>
+        <Typography variant="h4" component="h1" align="center"> Prepare Schema</Typography>
         </Card>
         </Paper>
         <br></br>
         <Paper  elevation={3}><Card  variant="outlined" ></Card>
         <Card  variant="outlined" elevation={3}>
-        <h3>3. Define Credential</h3>
+        <Typography variant="h4" component="h1" align="center"> Define Credential</Typography>
         </Card>
         </Paper>
         <br></br>
         <Paper  elevation={3}>
         <Card  variant="outlined" elevation={3}>
-        <h3>4. Add Connection To Digital Wallet</h3>
+        <Typography variant="h4" component="h1" align="center"> Add Connection To Digital Wallet</Typography>
         </Card>
         </Paper>
         <br></br>
         <Paper  elevation={3}>
         <Card  variant="outlined" elevation={3}>
-        <h3>5. Issue Credential To The Connection</h3>
+        <Typography variant="h4" component="h1" align="center"> Issue Credential To The Connection</Typography>
         </Card>
         </Paper>
 </Grid>
