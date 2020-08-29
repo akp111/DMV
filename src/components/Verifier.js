@@ -12,7 +12,7 @@ function Verifier()
         <h1 id="title">Verifier Page</h1>
         <br></br>
         <Paper  elevation={3}><Card  variant="outlined" >
-        <h2 className="step">Request Proofs To The Connection</h2>
+        <h3 className="step">Request Proofs To The Connection</h3>
         </Card>
         </Paper>
         </Grid>

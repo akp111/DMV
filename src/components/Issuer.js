@@ -14,30 +14,30 @@ function Issuer()
 <h1 id ="title">Issuer Page</h1>
 </Typography>
         <Paper  elevation={3}><Card  variant="outlined" >
-        <h2>1. Issuer Registration</h2>
+        <h3>1. Issuer Registration</h3>
         </Card>
         </Paper>
         <br></br>
         <Paper  elevation={3}><Card  variant="outlined" elevation={3}>
-        <h2>2. Prepare Schema</h2>
+        <h3>2. Prepare Schema</h3>
         </Card>
         </Paper>
         <br></br>
         <Paper  elevation={3}><Card  variant="outlined" ></Card>
         <Card  variant="outlined" elevation={3}>
-        <h2>3. Define Credential</h2>
+        <h3>3. Define Credential</h3>
         </Card>
         </Paper>
         <br></br>
         <Paper  elevation={3}>
         <Card  variant="outlined" elevation={3}>
-        <h2>4. Add Connection To Digital Wallet</h2>
+        <h3>4. Add Connection To Digital Wallet</h3>
         </Card>
         </Paper>
         <br></br>
         <Paper  elevation={3}>
         <Card  variant="outlined" elevation={3}>
-        <h2>5. Issue Credential To The Connection</h2>
+        <h3>5. Issue Credential To The Connection</h3>
         </Card>
         </Paper>
 </Grid>
